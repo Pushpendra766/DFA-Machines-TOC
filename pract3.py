@@ -12,6 +12,9 @@ def check_dfa(str):
     if count == length:
         print("String is accepted.")
         return
+    else:
+        print("String is rejected.")
+        return
 
 
 if __name__ == '__main__':
