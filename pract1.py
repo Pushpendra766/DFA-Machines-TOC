@@ -1,7 +1,7 @@
 def check_dfa(str):
     length = len(str)
     count = 0
-    if length == 0 or str[0] != 'c':
+    if (length == 0 or str[0] != 'c') or (str[1] != 'a' and str[1] != 'b'):
         print("String is rejected.")
         return
     for i in range(1, length-1):
